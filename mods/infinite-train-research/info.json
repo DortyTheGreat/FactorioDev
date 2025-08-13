@@ -1,0 +1,9 @@
+{
+  "name": "infinite-train-research",
+  "version": "1.0.1",
+  "title": "Infinite cargo wagon capacity research",
+  "author": "DortyTheFabric",
+  "description": "Adds infinite research to increase cargo wagon capacity.",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0.0"]
+}

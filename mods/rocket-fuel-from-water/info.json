@@ -1,0 +1,10 @@
+{
+  "name": "rocket-fuel-from-water",
+  "version": "1.0.0",
+  "title": "Rocket Fuel From Water",
+  "author": "DortyTheFabric",
+  "factorio_version": "2.0",
+  "description": "Make rocket fuel from oxygen and hydrogen",
+  "dependencies": ["base >= 2.0.0"],
+  "data": ["data.lua"]
+}
