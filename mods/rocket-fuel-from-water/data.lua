@@ -10,7 +10,7 @@ data:extend({
       },
 	default_temperature = 70,
     icon = "__rocket-fuel-from-water__/graphics/icons/oxygen.png", 
-    icon_size = 64,
+    icon_size = 100,
   },
   
   {
@@ -24,7 +24,7 @@ data:extend({
       },
 	default_temperature = 70,
     icon = "__rocket-fuel-from-water__/graphics/icons/hydrogen.png", 
-    icon_size = 64,
+    icon_size = 100,
   },
 })
 
@@ -40,13 +40,13 @@ data:extend({
       },
       {
         icon = "__rocket-fuel-from-water__/graphics/icons/oxygen.png",
-        icon_size = 64,
+        icon_size = 100,
         scale = 0.25,
         shift = { 8, -8 }  -- позиция второй иконки в правом нижнем углу
       },
 	  {
         icon = "__rocket-fuel-from-water__/graphics/icons/hydrogen.png",
-        icon_size = 64,
+        icon_size = 100,
         scale = 0.25,
         shift = { -8, -8 }  -- позиция второй иконки в правом нижнем углу
       },
@@ -79,13 +79,13 @@ data:extend({
       },
       {
         icon = "__rocket-fuel-from-water__/graphics/icons/oxygen.png",
-        icon_size = 64,
+        icon_size = 100,
         scale = 0.25,
         shift = { 8, -8 }  -- позиция второй иконки в правом нижнем углу
       },
 	  {
         icon = "__rocket-fuel-from-water__/graphics/icons/hydrogen.png",
-        icon_size = 64,
+        icon_size = 100,
         scale = 0.25,
         shift = { -8, -8 }  -- позиция второй иконки в правом нижнем углу
       },
@@ -93,8 +93,7 @@ data:extend({
     icon_size = 64,
     enabled = false,
     allow_decomposition = true,
-    category = "chemistry",
-    --subgroup = "biomass-crafting",  
+    category = "chemistry", 
     ingredients = {
       {type = "fluid",  name = "hydrogen", amount = 100},
 	  {type = "fluid",  name = "oxygen", amount = 600},
